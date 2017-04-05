@@ -1,0 +1,17 @@
+@import url("main.css");
+
+#content li 
+{
+  line-height: 200%;	
+	list-style-type: circle;
+}
+
+#testdustimage
+{
+	width: 30%; 
+	height: 35%;
+	float: right;
+	border-radius: 25px;
+	margin-top: 10%;
+	padding-left: auto;
+}

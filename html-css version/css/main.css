@@ -1,0 +1,167 @@
+@import url("normalize.css");
+
+/*********************PAGE LAYOUT**********************
+******************************************************/
+
+#wrapper 
+{
+	width: 80%;
+	margin: auto;
+	min-width: 850px;
+}
+
+header 
+{
+	padding: 10px 0 10px 10px;
+	border-bottom: 10px solid #0A2C6B;
+}
+
+#leftcolumn 
+{
+	float: left;
+	width: 175px;
+}
+
+#rightcolumn 
+{
+	margin-left: 175px;   /* New */
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 1px;                    /*** to fix display issues (temporary) ***/
+	padding-bottom: 1px;								 /*** to fix display issues (temporary) ***/
+}
+
+
+
+/*********************NAVIGATION***********************
+******************************************************/
+
+nav ul 
+{
+  list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 175px;
+	height: 100%;
+	position: static;
+	overflow: auto;
+	box-sizing: border-box;  /*New  also removed padding-left*/
+}
+
+nav li a 
+{
+	display: block;
+  text-decoration: none;
+	padding: 20px 0 20px 0;   /* New */
+}
+
+#content 
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+/*********************FOOTER**********************
+*************************************************/
+
+footer 
+{
+	border-top: solid 10px #0a2c6b;
+}
+
+footer a 
+{
+	text-decoration: none;
+}
+
+#footer_photo
+{
+	float: right;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+
+#copyright_info 
+{
+	font-size: .8em;
+	text-align: center;
+}
+
+#phone_symbol
+{
+	width: 20px;
+	height: 20px;
+}
+
+#mail_symbol 
+{
+	width: 20px;
+	height: 20px;
+}
+
+
+
+/*********************COLOR SCHEME AND TEXT*********************/
+/***************************************************************/
+
+body 
+{
+	background-color: #0A2C6B;
+	background: linear-gradient(to bottom, rgba(10,44,107,1), rgba(10,44,107,0));
+	font-family: Verdana, Lucida Sans, sans-serif;
+}
+
+#wrapper 
+{
+	/*background-color: #E8E1E1;*/
+	/*background-color: #DED7D7;*/
+	background-color: #FFF;
+}
+
+header 
+{
+	background-color: #FFFFFF;
+}
+
+nav a:link 
+{
+  color: #000000;	
+}
+
+nav a:hover 
+{
+	color: #FFFFFF;  /* New */
+}
+nav a.selected 
+{
+	color: #C4B7B7;
+	color: #FFFFFF;	/* New */
+	background-color: #8C8181; /* New */
+}
+
+#rightcolumn 
+{
+	background-color: #FFFFFF;
+}
+
+h1 
+{
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+h2, h3, h4, h5 
+{
+	font-family: Georgia, serif;
+}
+
+#content p
+{
+	line-height: 200%;
+	text-align: left;
+}

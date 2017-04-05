@@ -1,0 +1,13 @@
+@import url("main.css");
+
+#slideshow 
+{
+	float: right;
+	margin-left: 20px;
+	border: 10px groove #0a2c6b;
+}
+
+h1 
+{
+	text-align: center;
+}

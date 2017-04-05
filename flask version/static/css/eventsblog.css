@@ -1,0 +1,13 @@
+@import url("main.css");
+
+.post_date 
+{
+	font-size: .8em;
+	font-style: italic;
+}
+section
+{
+	padding: 0 0 1.5em 0;
+	border-top: 25px groove #0a2c6b;
+}
+

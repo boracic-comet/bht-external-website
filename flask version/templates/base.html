@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap: to ensure proper rendering and touch zooming on mobile devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>{% block title %}{% endblock %}</title>
+    
+    <!-- Stylesheets -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-xs-8 col-offset-2">
+                <header>
+                    <a href="index.html"><img src="{{ url_for('static', filename='blueheaventechlogo.jpg') }}" alt="Blue Heaven Technologies Logo"></a>
+                </header>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-xs-2 col-offset-2" id="left-column">
+                {% block navigation %}{% endblock %}
+            </div>
+            <div class="col-xs-6 col-offset-4" id="right-column">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-6 col-offset-4" id="footer">
+                {% block footer %}{% endblock %}
+            </div>
+        </div>  
+    </div>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import url("main.css");
+
+table caption 
+{
+	margin: 10px auto;
+	font-size: 0.8em;
+}
+
+table 
+{	
+	margin: 25px auto;
+	margin-bottom: 40px;
+}
+
+table th 
+{
+	background-color: #0A2C6B;
+	color: #FFFFFF;
+}
+
+tbody td, tr 
+{
+	border: 3px double black;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tbody tr:nth-of-type(odd) 
+{
+	background-color: #E8E1E1;
+}
+
+tfoot td
+{
+	text-align: center;
+	background-color: #0A2C6B;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 15px;
+}

@@ -1,0 +1,58 @@
+@import url("main.css");
+
+
+table 
+{
+	border: 1px solid black;
+	max-width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+caption 
+{
+	font-weight: bold;
+	margin: 10px auto;
+}
+
+tfoot 
+{
+	
+}
+
+th 
+{
+	border: 1px solid black;
+	background-color: #0A2C6B;
+	color: #FFFFFF;
+}
+
+tbody tr, td 
+{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+tbody tr:nth-of-type(odd) 
+{
+	background-color: #E8E1E1;
+}
+
+
+#iso_standards_table 
+{
+	max-width: 500px;
+}
+
+table a 
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.internal 
+{
+	color: red;
+	text-decoration: none;
+}
